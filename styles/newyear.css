@@ -119,7 +119,8 @@ hr {
 }
 
 .partybackground {
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), 
+  url('../resources/Vectorrr.png');
   
   border-radius: 20px;
   background-repeat: no-repeat;
@@ -541,9 +542,13 @@ footer {
   /* 160% */
   padding-top: 16px;
 }
+.year{
+  padding-left: 20px;
+}
 
 .comingrow {
   display: flex;
+  justify-content: space-between;
 }
 
 .circlepic {
@@ -565,7 +570,7 @@ footer {
 
 .comingtext {
   margin: 0 70px 0 0;
-  width: 633px;
+  width: 458px;
 }
 
 .datepic img {
