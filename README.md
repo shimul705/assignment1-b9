@@ -3,11 +3,13 @@
 A festive, single-page landing site for a New Year's Eve party and holiday sale, built with **pure HTML5 and CSS3** from a Figma design.
 
 > **Programming Hero — Level 1 · Assignment 1 (Batch 9)**
-> Completed: **January 9, 2024**
+> Completed: **January 9, 2024**  
+> Mark: **60 / 60** 🏆
 
 <p>
   <a href="https://shimul705.github.io/assignment1-b9/"><img alt="Live Demo" src="https://img.shields.io/badge/Live-Demo-FF0000?style=for-the-badge&logo=githubpages&logoColor=white"></a>
   <a href="https://github.com/shimul705/assignment1-b9"><img alt="Source Code" src="https://img.shields.io/badge/Source-Code-070211?style=for-the-badge&logo=github&logoColor=white"></a>
+  <img alt="Mark 60/60" src="https://img.shields.io/badge/Mark-60%2F60-2EA44F?style=for-the-badge">
 </p>
 
 ---
