@@ -581,3 +581,464 @@ footer {
 .datepic {
   margin-top: 48px;
 }
+
+/* ========Responsive (Tablet)============= */
+@media (max-width: 1200px) {
+
+  #offer {
+    margin: 128px 0 0;
+  }
+
+  .banner_title {
+    font-size: 64px;
+  }
+
+  .bannerMain {
+    padding: 160px 0;
+  }
+
+  .partytxt {
+    padding: 80px 0 0 60px;
+  }
+
+  .partyheader {
+    font-size: 52px;
+    line-height: 68px;
+    letter-spacing: 4px;
+  }
+
+  .partyimg {
+    padding: 48px 60px;
+  }
+
+  .join1 {
+    padding: 0 0 80px 0;
+  }
+
+  /* coming soon */
+  .comingrow {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .comingtext {
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .comingtext h3 {
+    margin: 48px 0 18px;
+  }
+
+  .comingtext p {
+    padding-right: 0;
+  }
+
+  .circlepic {
+    margin: 0 40px 0 0;
+  }
+
+  .circlepic img {
+    height: 300px;
+    padding: 28px;
+    border: 14px solid red;
+  }
+
+  .date {
+    padding-top: 0;
+  }
+
+  /* 50% sale images keep the desktop layout, only scaled by width */
+  .saleimage {
+    height: auto;
+    aspect-ratio: 1574 / 778;
+  }
+
+  .mystry {
+    height: auto;
+    width: 58.8%;
+    left: 0;
+  }
+
+  .saleimg3 {
+    height: auto;
+    width: 32.1%;
+  }
+
+  .saleimg4 {
+    height: auto;
+    width: 23.4%;
+    top: 11.3%;
+    right: 20.8%;
+  }
+
+  /* portfolio grid */
+  .catagoryimage img {
+    width: calc(50% - 10px);
+  }
+
+  /* footer */
+  .contact {
+    margin: 120px 0 50px 0;
+  }
+}
+
+/* ========Responsive (Small Tablet)============= */
+@media (max-width: 992px) {
+
+  .freedomparty {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .partytxt {
+    padding: 48px 40px 0;
+  }
+
+  .partyimg {
+    padding: 32px 0 0;
+  }
+
+  .join1 {
+    padding: 0;
+  }
+
+  .placetxt {
+    padding: 72px 24px 80px;
+  }
+
+  .placeheading {
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+  .comingrow {
+    flex-direction: column;
+  }
+
+  .circlepic {
+    margin: 32px 0;
+  }
+
+  .year {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+/* ========Responsive (Mobile)============= */
+@media (max-width: 768px) {
+
+  .container,
+  .footersection {
+    width: 90%;
+  }
+
+  /* banner */
+  #bannerSection {
+    margin: 24px 0;
+  }
+
+  .bannerMain {
+    padding: 90px 16px;
+  }
+
+  .banner_greeting {
+    font-size: 22px;
+    margin: 0 0 12px;
+  }
+
+  .banner_title {
+    font-size: 36px;
+  }
+
+  /* offer */
+  #offer {
+    margin: 60px 0 0;
+  }
+
+  .offer65 {
+    font-size: 56px;
+    margin-bottom: 24px;
+  }
+
+  .offertag {
+    font-size: 18px;
+  }
+
+  .offerhead {
+    font-size: 30px;
+    margin: 0 0 32px 0;
+  }
+
+  /* party */
+  #party {
+    margin: 60px 0;
+  }
+
+  .freedomparty {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .partybackground {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+      url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .partytxt {
+    padding: 0 20px;
+  }
+
+  .partyheader {
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 2px;
+  }
+
+  .partyperagraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 16px 0 24px;
+  }
+
+  .partyimg {
+    padding: 24px 0 0;
+  }
+
+  .partyimg img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .join {
+    font-size: 18px;
+  }
+
+  .join1 {
+    padding: 0;
+  }
+
+  /* place */
+  .placetxt {
+    padding: 48px 16px 56px;
+  }
+
+  .placeheading {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .join2 {
+    padding: 12px 28px;
+    margin-top: 32px;
+  }
+
+  /* coming soon */
+  .comingrow {
+    flex-direction: column;
+  }
+
+  .comingtext h3 {
+    font-size: 18px;
+    margin: 0 0 12px;
+  }
+
+  .comingtext h1 {
+    font-size: 32px;
+    margin: 0 0 16px;
+  }
+
+  .comingtext p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .circlepic {
+    margin: 16px 0 32px;
+  }
+
+  .circlepic img {
+    height: 220px;
+    padding: 18px;
+    border: 10px solid red;
+  }
+
+  .year {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .year h1 {
+    font-size: 40px;
+  }
+
+  .year p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .datepic {
+    margin-top: 24px;
+  }
+
+  .datepic img {
+    width: 110px;
+  }
+
+  /* 50% sale */
+  #salee {
+    margin: 60px 0 32px;
+  }
+
+  .text-wrapper-fifty {
+    font-size: 18px;
+  }
+
+  .span-fifty,
+  .text-wrapper-2-fifty {
+    font-size: 36px;
+  }
+
+  .saletext p {
+    padding: 0;
+  }
+
+  .peragraph-fifty {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 16px;
+  }
+
+  /* portfolio grid */
+  .text-wrapper {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .text-wrapper-2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .catagoryimage {
+    gap: 16px;
+  }
+
+  .catagoryimage img {
+    width: calc(50% - 8px);
+    margin-bottom: 0;
+  }
+
+  /* subscribe */
+  .subimg {
+    margin-top: 48px;
+    width: 100px;
+  }
+
+  .subtext {
+    padding: 0 16px;
+  }
+
+  .subscribe-newsletter {
+    font-size: 28px;
+    margin: 24px 0 16px;
+  }
+
+  .sub-peragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .subscribe-section form {
+    padding: 32px 16px 48px;
+  }
+
+  .subscribe {
+    padding: 16px 24px;
+    font-size: 16px;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+  }
+
+  /* footer */
+  footer {
+    margin-top: 60px;
+  }
+
+  .footerbox p {
+    font-size: 16px;
+  }
+
+  .address {
+    flex-direction: column;
+  }
+
+  .address>p {
+    margin: 48px 0 24px;
+    line-height: 28px;
+  }
+
+  .contact {
+    margin: 0 0 32px 0;
+  }
+
+  .contact img {
+    padding-top: 0;
+  }
+
+  .icondesign .icon {
+    margin-right: 12px;
+  }
+
+  .socialicon a {
+    margin: 32px 8px;
+  }
+
+  .socialicon img {
+    height: 40px;
+  }
+
+  .copyright p {
+    margin: 32px 0 48px;
+  }
+}
+
+/* ========Responsive (Small Mobile)============= */
+@media (max-width: 480px) {
+
+  .banner_title {
+    font-size: 30px;
+  }
+
+  .offer65 {
+    font-size: 44px;
+  }
+
+  .offerhead {
+    font-size: 24px;
+  }
+
+  .catagoryimage img {
+    width: 100%;
+  }
+
+  .subscribe {
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+}
